@@ -1,0 +1,62 @@
+h2 {
+    color: var(--azul-oscuro);
+    margin-bottom: 20px;
+  }
+  
+  button {
+    background-color: var(--azul-oscuro);
+    color: var(--blanco);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s;
+    margin-right: 10px;
+  }
+  
+  button:hover {
+    background-color: var(--azul-claro);
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  table th, table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  table th {
+    background-color: var(--azul-oscuro);
+    color: var(--blanco);
+  }
+  
+  table td {
+    background-color: var(--blanco);
+    color: var(--azul-oscuro);
+  }
+  
+  table tr:hover {
+    background-color: var(--azul-claro);
+  }
+  
+  table button {
+    background-color: var(--azul-oscuro);
+    color: var(--blanco);
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 12px;
+    margin-right: 5px;
+  }
+  
+  table button:hover {
+    background-color: var(--azul-claro);
+  }
+  

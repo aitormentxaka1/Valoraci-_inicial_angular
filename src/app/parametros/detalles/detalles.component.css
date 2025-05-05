@@ -1,0 +1,32 @@
+h2 {
+    color: var(--azul-oscuro);
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  table th, table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  table th {
+    background-color: var(--azul-oscuro);
+    color: var(--blanco);
+  }
+  
+  table td {
+    background-color: var(--blanco);
+    color: var(--azul-oscuro);
+  }
+  
+  table tr:hover {
+    background-color: var(--azul-claro);
+  }
+  

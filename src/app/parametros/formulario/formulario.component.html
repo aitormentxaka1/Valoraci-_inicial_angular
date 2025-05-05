@@ -1,0 +1,7 @@
+<h2>{{ esEdicion ? 'Editar' : 'Crear' }} Parámetro</h2>
+<form (ngSubmit)="guardar()">
+  <label>Nombre: <input [(ngModel)]="parametro.nombre" name="nombre" required /></label><br />
+  <label>Descripción: <input [(ngModel)]="parametro.descripcion" name="descripcion" required /></label><br />
+  <label>Estado: <input [(ngModel)]="parametro.estado" name="estado" required /></label><br />
+  <button type="submit">Guardar</button>
+</form>

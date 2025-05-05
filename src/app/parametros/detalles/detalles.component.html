@@ -1,0 +1,81 @@
+<div *ngIf="parametro">
+  <h2>Detalle del Parámetro</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>Campo</th>
+        <th>Valor</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>ID</strong></td>
+        <td>{{ parametro.id }}</td>
+      </tr>
+      <tr>
+        <td><strong>Nombre</strong></td>
+        <td>{{ parametro.nombre }}</td>
+      </tr>
+      <tr>
+        <td><strong>Grupo Parámetros</strong></td>
+        <td>{{ parametro.grupoParametros }}</td>
+      </tr>
+      <tr>
+        <td><strong>Destino</strong></td>
+        <td>{{ parametro.destino }}</td>
+      </tr>
+      <tr>
+        <td><strong>Descripción</strong></td>
+        <td>{{ parametro.descripcion }}</td>
+      </tr>
+      <tr>
+        <td><strong>Disciplina</strong></td>
+        <td>{{ parametro.disciplina }}</td>
+      </tr>
+      <tr>
+        <td><strong>Unidad</strong></td>
+        <td>{{ parametro.unidad }}</td>
+      </tr>
+      <tr>
+        <td><strong>Agrupar En</strong></td>
+        <td>{{ parametro.agruparEn }}</td>
+      </tr>
+      <tr>
+        <td><strong>Es Sistema</strong></td>
+        <td>{{ parametro.esSistema }}</td>
+      </tr>
+      <tr>
+        <td><strong>Es Enabled</strong></td>
+        <td>{{ parametro.esEnabled }}</td>
+      </tr>
+      <tr>
+        <td><strong>Es Geometría</strong></td>
+        <td>{{ parametro.esGeometria }}</td>
+      </tr>
+      <tr>
+        <td><strong>Adsk Data Type</strong></td>
+        <td>{{ parametro.adskDataType }}</td>
+      </tr>
+      <tr>
+        <td><strong>Adsk Data Category</strong></td>
+        <td>{{ parametro.adskDataCategory }}</td>
+      </tr>
+      <tr>
+        <td><strong>Adsk Group</strong></td>
+        <td>{{ parametro.adskGroup }}</td>
+      </tr>
+      <tr>
+        <td><strong>Adsk Visible</strong></td>
+        <td>{{ parametro.adskVisible }}</td>
+      </tr>
+      <tr>
+        <td><strong>Adsk User Modifiable</strong></td>
+        <td>{{ parametro.adskUserModifiable }}</td>
+      </tr>
+      <tr>
+        <td><strong>Estado</strong></td>
+        <td>{{ parametro.estado }}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>

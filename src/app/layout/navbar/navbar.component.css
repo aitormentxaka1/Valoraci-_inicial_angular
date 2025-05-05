@@ -1,0 +1,27 @@
+header {
+  background-color: var(--azul-oscuro);
+  padding: 15px 0;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin: 0;
+  padding: 0;
+}
+
+nav li a {
+  color: var(--blanco);
+  text-decoration: none;
+  font-weight: bold;
+  padding: 15px 0;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+nav li a:hover {
+  color: var(--azul-claro);
+}
